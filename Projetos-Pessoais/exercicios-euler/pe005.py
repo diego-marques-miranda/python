@@ -1,31 +1,27 @@
-def prime_generator(limit=1000):
-    counter = 0
-    primes = []
-    for i in range(1, limit):
-        counter = 0
-        for j in range(1, limit):
-            if i % j == 0:
-                counter += 1
-        if counter == 2:
-            primes.append(i)
-    return primes
+def even_div():
+    x = 0
+    for i in range(0, 1000000000):
+        if i % 2 == 0:
+            if i % 3 == 0:
+                if i % 4 == 0:
+                    if i % 5 == 0:
+                        if i % 6 == 0:
+                            if i % 7 == 0:
+                                if i % 8 == 0:
+                                    if i % 9 == 0:
+                                        if i % 10 == 0:
+                                            if i % 11 == 0:
+                                                if i % 12 == 0:
+                                                    if i % 13 == 0:
+                                                        if i % 14 == 0:
+                                                            if i % 15 == 0:
+                                                                if i % 16 == 0:
+                                                                    if i % 17 == 0:
+                                                                        if i % 18 == 0:
+                                                                            if i % 19 == 0:
+                                                                                if i % 20 == 0:
+                                                                                    x = i
+    return x
 
 
-def factorer(num=1):
-    primes = prime_generator(1000)
-    factors = []
-    for i in range(0, len(primes)):
-        for j in range(0, len(primes)):
-            if num % primes[i] == 0:
-                num = num / primes[i]
-                factors.append(primes[i])
-    return factors
-
-
-def mmc():
-    primes = [2, 3, 5, 7, 9, 11, 13, 17, 19]
-    print(2*3*5*7*9*11*13*17*19)
-
-
-mmc()
-
+print(even_div())
