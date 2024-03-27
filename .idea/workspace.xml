@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07ad1b39-476a-4db9-b3cd-edf24428b2e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/teste.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/exercicios-euler/pe007.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/ex2703.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/pp1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +37,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.ex001.executor": "Run",
     "Python.pe005.executor": "Run",
     "Python.pe007.executor": "Run",
     "Python.pee006.executor": "Run",
+    "Python.pp1.executor": "Run",
     "Python.teste.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
