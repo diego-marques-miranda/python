@@ -1,21 +1,19 @@
+from decimal import Decimal
+
+
 def contador_de_moedas(valorEntrada):
-    valorTrabalhado = float(valorEntrada)
+    valorTrabalhado = Decimal(valorEntrada)
     moedasContadas = []
-    if valorTrabalhado >= 1:
-        moedasContadas.append(valorTrabalhado // 1)
-        valorTrabalhado = valorTrabalhado % 1
-        if valorTrabalhado >= 0.5:
-            moedasContadas.append(valorTrabalhado // 0.5)
-            valorTrabalhado = valorTrabalhado % 0.5
-            if valorTrabalhado >= 0.25:
-                moedasContadas.append(valorTrabalhado // 0.25)
-                valorTrabalhado = valorTrabalhado % 0.25
-                if valorTrabalhado >= 0.1:
-                    moedasContadas.append(valorTrabalhado // 0.1)
-                    valorTrabalhado = valorTrabalhado % 0.1
-                    if valorTrabalhado >= 0.01:
-                        moedasContadas.append(valorTrabalhado // 0.01)
+    moedasDisponiveis = [Decimal(1), Decimal(0.5), Decimal(0.25), Decimal(0.10), Decimal(0.05), Decimal(0.01)]
+    for i in range(0, len(moedasDisponiveis)):
+        if valorTrabalhado >= moedasDisponiveis[i]:
+            moedasContadas.append(valorTrabalhado // moedasDisponiveis[i])
+            valorTrabalhado = valorTrabalhado % moedasDisponiveis[i]
+        else:
+            moedasContadas.append(0)
+    for i in range(0, len(moedasContadas)):
+        moedasContadas[i] = float(moedasContadas[i])
     return moedasContadas
 
 
-print(contador_de_moedas(49.85))
+print(contador_de_moedas(11.83))

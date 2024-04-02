@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07ad1b39-476a-4db9-b3cd-edf24428b2e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/contador-de-moedas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/contador-de-moedas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/contador-de-moedas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.contador-de-moedas.executor": "Run",
-    "Python.ex001.executor": "Run",
-    "Python.pe005.executor": "Run",
-    "Python.pe007.executor": "Run",
-    "Python.pee006.executor": "Run",
-    "Python.pp1.executor": "Run",
-    "Python.teste.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/estudos/python"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.contador-de-moedas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pe005.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pe007.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pee006.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pp1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teste.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/estudos/python&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
