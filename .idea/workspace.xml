@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07ad1b39-476a-4db9-b3cd-edf24428b2e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/ex0009.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/ex0136.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/ex0628.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/n-numeros-maisproximos-k.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/verificador-triangulos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +45,13 @@
     "Python.ex001.executor": "Run",
     "Python.ex0136.executor": "Run",
     "Python.ex0628.executor": "Run",
+    "Python.n-numeros-maisproximos-k.executor": "Run",
     "Python.pe005.executor": "Run",
     "Python.pe007.executor": "Run",
     "Python.pee006.executor": "Run",
     "Python.pp1.executor": "Run",
     "Python.teste.executor": "Run",
+    "Python.verificador-triangulos.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
