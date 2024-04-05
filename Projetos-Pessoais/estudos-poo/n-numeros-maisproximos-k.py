@@ -1,17 +1,25 @@
-def absolute_value(num=0):
-    if num >= 0:
-        return num
-    return -num
+def distance(num, k):
+    if k - num < 0:
+        return -1*(k-num)
+    return k-num
+
+def closest(nums, k):
+    close = k * 1000
+    for i in nums:
+        if distance(i, k) <= close:
+            close = distance(i, k)
+    return k - close
 
 
 def n_numbers_closest_to_k(numbers, n, k):
     closestNumbers = []
-    close = k * 1000
-    for i in range(0, len(numbers)):
-        if absolute_value(numbers[i] - k) < absolute_value(close - k):
-            close = numbers[i]
-            closestNumbers.append(numbers[i])
+    singles = []
+    i = 0
+    while len(closestNumbers) != n:
+        closestNumbers.append(closest(numbers, k))
+        numbers.remove(closest(numbers, k))
+        i += 1
     return closestNumbers
 
 
-print(n_numbers_closest_to_k([1, 2, 3, 4], 2, 1))
+print(n_numbers_closest_to_k([0, 1, 2], 2, 2))
