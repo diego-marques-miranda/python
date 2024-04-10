@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07ad1b39-476a-4db9-b3cd-edf24428b2e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/ex0739.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/lista-palindromos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/posto-de-combustivel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/ex0067.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +42,7 @@
     "Python.contador-de-moedas.executor": "Run",
     "Python.ex0009.executor": "Run",
     "Python.ex001.executor": "Run",
+    "Python.ex0067.executor": "Run",
     "Python.ex0136.executor": "Run",
     "Python.ex0628.executor": "Run",
     "Python.ex0739.executor": "Run",
@@ -87,6 +86,11 @@
           <url>file://$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/n-numeros-maisproximos-k.py</url>
           <line>7</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/ex0067.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
