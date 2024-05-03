@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07ad1b39-476a-4db9-b3cd-edf24428b2e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/ex0020.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/ex0021.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/ex0027.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/ex0171.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/contador-de-moedas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/contador-de-moedas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/verificador-triangulos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/verificador-triangulos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projetos-Pessoais/estudos-poo/teste.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
